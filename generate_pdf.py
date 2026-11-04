@@ -54,28 +54,29 @@ story.append(PageBreak())
 
 for articolo in news:
 
-  story.append(
-    Paragraph(
-      articolo["categoria"],
-      styles["Heading1"]
+    story.append(
+        Paragraph(
+            articolo["categoria"],
+            styles["Heading1"]
+        )
     )
-  )
 
-story.append(
-  Paragraph(
-    articolo["titolo"],
-    styles["Heading2"]
-  )
-)
+    story.append(
+        Paragraph(
+            articolo["titolo"],
+            styles["Heading2"]
+        )
+    )
 
-story.append(
-  Paragraph(
-    articolo["descrizione"],
-    styles["Normal"]
-  )
-)
+    story.append(
+        Paragraph(
+            articolo["descrizione"],
+            styles["Normal"]
+        )
+    )
 
-story.append(Spacer(1, 20))
+    story.append(Spacer(1, 20))
+
 
 doc.build(story)
 
