@@ -46,7 +46,7 @@ story.append(Spacer(1, 40))
 story.append(
     Paragraph(
         "Le principali notizie tecnologiche del giorno",
-        style["Heading1"]
+        styles["Heading1"]
     )
 )
 
