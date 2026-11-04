@@ -41,6 +41,15 @@ story.append(
   )
 )
 
+story.append(Spacer(1, 40))
+
+story.append(
+    Paragraph(
+        "Le principali notizie tecnologiche del giorno",
+        style["Heading1"]
+    )
+)
+
 story.append(Spacer(1, 30))
 
 story.append(
@@ -54,20 +63,26 @@ story.append(PageBreak())
 
 for articolo in news:
 
+    story.append(PageBreak())
+
     story.append(
         Paragraph(
             articolo["categoria"],
+            styles["Title"]
+        )
+    )
+
+    story.appen(Spacer(1, 20))
+    
+    story.append(
+        Paragraph(
+            articolo["titolo"],
             styles["Heading1"]
         )
     )
 
-    story.append(
-        Paragraph(
-            articolo["titolo"],
-            styles["Heading2"]
-        )
-    )
-
+    story.append(Spacer(1, 15))
+    
     story.append(
         Paragraph(
             articolo["descrizione"],
