@@ -16,4 +16,16 @@
     "titolo": "Nuovo trailer di GTA VI",
     "descrizione": "Rockstar puybblica un nuovo trailer ufficiale."
   }
+
+  {
+    "categoria": "software",
+    "titolo": "GitHub aggiorna Actions",
+    "descrizione": "Miglioramenti nelle pipeline CI/CD."
+  }
+
+  {
+    "categoria": "Web",
+    "titolo:" "Nuovo standard HTML",
+    "descrizione": "Miglioramenti per acessibilità e prestazioni."
+  }
 ]
