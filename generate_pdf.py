@@ -30,7 +30,7 @@ story = []
 story.append(
   Paragraph(
     "TECH NEWS DAILY",
-    style("Title")
+    styles["Title"]
   )
 )
 
