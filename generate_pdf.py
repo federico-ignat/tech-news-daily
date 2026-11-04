@@ -72,7 +72,7 @@ for articolo in news:
         )
     )
 
-    story.appen(Spacer(1, 20))
+    story.append(Spacer(1, 20))
     
     story.append(
         Paragraph(
