@@ -56,21 +56,21 @@ for articolo in news:
 
   story.append(
     Paragraph(
-      articolo["categoria"]
+      articolo["categoria"],
       styles["Heading1"]
     )
   )
 
 story.append(
   Paragraph(
-    articolo["titolo"]
+    articolo["titolo"],
     styles["Heading2"]
   )
 )
 
 story.append(
   Paragraph(
-    articolo["descrizione"]
+    articolo["descrizione"],
     styles["Normal"]
   )
 )
