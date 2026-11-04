@@ -8,7 +8,7 @@ from reportlab.platypus import(
     SimpleDocTemplate,
     Paragraph,
     Spacer,
-    PaageBreak
+    PageBreak
 )
 from reportlab.lib.styles import getSampleStyleSheet
 
