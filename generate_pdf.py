@@ -14,7 +14,7 @@ from reportlab.lib.styles import getSampleStyleSheet
 
 os.makedirs("reports", exist_ok=True)
 
-today = datetime.now().srttime("%d/%m/%Y")
+today = datetime.now().strftime("%d/%m/%Y")
 
 pdf_path = "reports/latest_news.pdf"
 
