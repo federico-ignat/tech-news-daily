@@ -1,1 +1,19 @@
+[
+  {
+    "categoria": "AI",
+    "titolo": "Nuovo aggiornamento Copilot",
+    "descrizione": "Microsoft introduce nuove funzionalità per produttività e sviluppo."
+  },
 
+  {
+    "categoria": "Hardware",
+    "titolo": "Nuove GPU NVIDIA",
+    "descrizione": "Annunciate nuove schede video con prestazioni migliorate."
+  },
+
+  {
+    "categoria": "Gaming",
+    "titolo": "Nuovo trailer di GTA VI",
+    "descrizione": "Rockstar puybblica un nuovo trailer ufficiale."
+  }
+]
